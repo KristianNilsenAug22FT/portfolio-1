@@ -1,86 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Kristian Nilsen's portfolio">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        <title>Kristian Nilsen's portfolio</title>
-    </head>
-<body>
-  <div id="topofpage"></div>
-  <div class="topnav" id="myTopnav">
-    <a href="#topofpage" class="logo"><img src="/images/logo.jpg"></a>
-    <div class="nav-links">
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact me</a>
-    </div>
-  </div>
-  <div class="about" id="about">
-    <div class="about-section">
-      <div class="abouttext">
-        <p class="redtext">Who am I?</p>
-        <p>My name is Kristian Nilsen. </p>
-        <p class="redtext">What do I do?</p>
-        <p>I study Frontend development at Noroff University</p>
-        <p class="redtext">What are my skills?</p>
-        <p>HTML, CSS, JS, Photoshop and general computing</p>
-      </div>
-      <div class="selfie">
-        <img src="/images/me.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Kristian Nilsen's portfolio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Kristian Nilsen's portfolio</title>
+  </head>
+  <body>
+    <div id="topofpage"></div>
+    <div class="topnav" id="myTopnav">
+      <a href="#topofpage" class="logo"><img src="/images/logo.jpg" /></a>
+      <div class="nav-links">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact me</a>
       </div>
     </div>
-  </div>
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modalImage">
-  </div>
-  
-  <div id="portfolio"></div>
-  <div class="portfolio-section">
-    <div class="card">
-      <h2>Community Science Museum</h2>
-      <img src="/images/sciencemuseum.jpg" alt="Front page of Sceience Museum website" onclick="openModal(this)">
-      <p>A site for a fictional Community Science Museum</p>
-      <div class="buttons">
-        <a href="https://verdant-gelato-5e4cd6.netlify.app/" target="_blank">Deployed site</a>
-        <a href="https://github.com/KristianNilsenAug22FT/SemesterProject1" target="_blank">Source Code</a>
+    <div class="about" id="about">
+      <div class="about-section">
+        <div class="abouttext">
+          <p class="redtext">Who am I?</p>
+          <p>My name is Kristian Nilsen.</p>
+          <p class="redtext">What do I do?</p>
+          <p>I study Frontend development at Noroff University</p>
+          <p class="redtext">What are my skills?</p>
+          <p>HTML, CSS, JS, Photoshop and general computing</p>
+        </div>
+        <div class="selfie">
+          <img src="/images/me.jpg" />
+        </div>
       </div>
     </div>
-    <div class="card">
-      <h2>Cross-Course Project</h2>
-      <img src="/images/rainydays.jpg" alt="Front page of the clothes store Rainy Days" onclick="openModal(this)">
-      <p>My cross-course project while studying Frontend Development</p>
-      <div class="buttons">
-        <a href="https://glittery-praline-e7ad88.netlify.app/" target="_blank">Deployed site</a>
-        <a href="https://github.com/KristianNilsenAug22FT/cross-course-project" target="_blank">Source Code</a>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
+
+    <div id="portfolio"></div>
+    <div class="portfolio-section">
+      <div class="card">
+        <h2>Community Science Museum</h2>
+        <img src="/images/sciencemuseum.jpg" alt="Front page of Sceience Museum website" onclick="openModal(this)" />
+        <p>A site for a fictional Community Science Museum</p>
+        <div class="buttons">
+          <a href="https://verdant-gelato-5e4cd6.netlify.app/" target="_blank">Deployed site</a>
+          <a href="https://github.com/KristianNilsenAug22FT/SemesterProject1" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Cross-Course Project</h2>
+        <img src="/images/rainydays.jpg" alt="Front page of the clothes store Rainy Days" onclick="openModal(this)" />
+        <p>My cross-course project while studying Frontend Development</p>
+        <div class="buttons">
+          <a href="https://glittery-praline-e7ad88.netlify.app/" target="_blank">Deployed site</a>
+          <a href="https://github.com/KristianNilsenAug22FT/cross-course-project" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>The Boating Blog</h2>
+        <img src="/images/theboatblog.jpg" alt="The front page of the site The Boating Blog" onclick="openModal(this)" />
+        <p>My first year exam studying Frontend Development</p>
+        <div class="buttons">
+          <a href="https://luxury-lolly-e07c4c.netlify.app/" target="_blank">Deployed site</a>
+          <a href="https://github.com/KristianNilsenAug22FT/projectexamclone" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>The Auction House</h2>
+        <img src="/images/theauctionhouse.JPG" alt="The front page of the site The Auction House" onclick="openModal(this)" />
+        <p>A fictional auction site. Semester project for my second year studying Frontend Development</p>
+        <div class="buttons">
+          <a href="https://polite-sunburst-06f627.netlify.app/" target="_blank">Deployed site</a>
+          <a href="https://github.com/KristianNilsenAug22FT/SemesterProject2" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>e-COM Store</h2>
+        <img src="/images/ecomstore.jpg" alt="The front page of the site ecom store" onclick="openModal(this)" />
+        <p>Javascript framwork assignement in my second year of studying Frontend Development</p>
+        <div class="buttons">
+          <a href="https://voluble-entremet-5eb81e.netlify.app/" target="_blank">Deployed site</a>
+          <a href="https://github.com/KristianNilsenAug22FT/ecom-storeKristianNilsenAUG22FT" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Holidaze Bookings</h2>
+        <img src="/images/holidaze.JPG" alt="The front page of the site Holidaze Bookings" onclick="openModal(this)" />
+        <p>My second year exam studying Frontend Development</p>
+        <div class="buttons">
+          <a href="https://sunny-haupia-0d4e2b.netlify.app/" target="_blank">Deployed site</a>
+          <a href="https://github.com/KristianNilsenAug22FT/holidaze-bookings" target="_blank">Source Code</a>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <h2>The Boating Blog</h2>
-      <img src="/images/theboatblog.jpg" alt="The front page of the site The Boating Blog" onclick="openModal(this)">
-      <p>My first year exam studying Frontend Development</p>
-      <div class="buttons">
-        <a href="https://luxury-lolly-e07c4c.netlify.app/" target="_blank">Deployed site</a>
-        <a href="https://github.com/KristianNilsenAug22FT/projectexamclone" target="_blank">Source Code</a>
+    <div class="contact" id="contact">
+      <p>The best way to get in touch with me is by sending me an email</p>
+      <a href="mailto:nilsenkr@pm.me">nilsenkr@pm.me</a>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Kristian Nilsen</p>
+      <div class="socials">
+        <a href="https://github.com/KristianNilsenAug22FT">My github</a>
+        <a href="discordapp.com/users/245471168469925898">Discord</a>
       </div>
     </div>
-  </div>
-  <div class="contact" id="contact">
-    <p>The best way to get in touch with me is by sending me an email</p>
-    <a href="mailto:nilsenkr@pm.me">nilsenkr@pm.me</a>
-  </div>
-  <div class="footer">
-    <p>&copy; 2023 Kristian Nilsen</p>
-    <div class="socials">
-      <a href="https://github.com/KristianNilsenAug22FT">My github</a>
-      <a href="discordapp.com/users/245471168469925898">Discord</a>
-    </div>
-  </div>
-  <script defer src="/js/script.js"></script>
-</body>
+    <script defer src="/js/script.js"></script>
+  </body>
 </html>
